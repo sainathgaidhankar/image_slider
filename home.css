@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+    height: 100px;
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    position: fixed;
+    z-index: 12;
+}
+.logo {
+    font-family: 'Aclonica';
+    font-size: 25px;
+    padding: 50px;
+    margin-left: 50px;
+}
+.logo a{
+      color: #fff;
+      text-decoration: none;
+}
+.logo a:hover{
+    color: #fff;
+}
+.nav_bar{
+    font-family: 'poppins';
+    font-size: 20px;
+    float: right;
+    list-style: none;
+}
+.nav_bar li{
+    display: inline-block;
+}
+.nav_bar li a{
+    padding: 15px; 
+    
+}
+.nav_bar li a:hover{
+    background: #7D7A7A;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    border-width: auto;
+}
+.carousel-item img{
+    -webkit-background-size: cover;
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 105%;
+    height: 100vh;
+    filter: brightness(90%);
+}
+.box{
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    padding: 25px;
+}
+.active{
+    background: #fff;
+}
+.full-page{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0.4),rgba(0,0,0,4)),url(bg-0.jpg);
+    background-position:center ;
+    background-size: cover;
+    position: absolute;
+}
+.navbar{
+    display:flex;
+    align-items: center ;
+    padding: 20px;
+    padding-left:50px ;
+    padding-right: 30px;
+    padding-top: 50px;
+
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 7opx;
+}
